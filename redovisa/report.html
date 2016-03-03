@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="sv">
+<meta charset="utf-8">
+<title>Redovisningar | Kursen linux</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<article>
+
+<h1>Min Redovisnings-sida</h1>
+
+<h2>Kmom01</h2>
+
+<h3>Allmänt</h3>
+<p>Då var förhoppningsvis det första momentet avklarat på ett korrekt sätt.
+På det stora hela har det gått väldigt bra och det har inte direkt varit någora problem eller frågetecken under vägen.</p>
+
+<h3>Villken utvecklingsmiljö sitter du på?</h3>
+<p>Jag sitter vanligtvis med en MacBook Pro 13" som har två år på nacken.
+Som webbläsare har jag safari, firefox och chrome installerat men använder mest Safari i privat bruk.
+Som texteditor använde jag mig mycket av Sublime Text förut men har börjat använda Atom mer och mer faktiskt. Ett plugin som jag har svårt att leva utan till bägge dessa editors är Emmet som snabbar upp mitt kodande avsevärt.</p>
+<p>Ungefär samma utvecklingsverktyg återfinns i den virtualla debian-miljön.</p>
+
+<h3>Är du sedan tidigare bekant med Unix, Linux, Debian och/eller terminalen</h3>
+<p>Då jag har en Mac-dator har jag lite vana sedan tidigare av Unix. Under sommaren har jag provat diverse linux-distros i VirtualBox för att göra mig bekväm med operativsystemet, hur det fungerar och så vidare. Detta gjorde jag även för att underlätta starten av denna kurs
+Terminalen är inget nytt då jag använd den i tidare kurser samt väldigt mycket under sommarens distro-hoppande. Dock provade jag aldrig Debian utan det vart olika flavours av Ubuntu, Linux Mint, Elementary OS samt Antergos en kort sväng.</p>
+
+<h3>Hur känns det med Unix-kommandon på terminalen, är det udda eller bekvämt?</h3>
+<p>I början var det väldigt svårt att komma igång med terminalen och jag tyckte det var lite jobbigt varje gång jag behövde göra något i terminalen, vare sig det var i plugg-sammanhang eller av andra anledningar.
+Ju mer jag har använt mig av terminalen och dess kommandon så har den jobbiga känslan försvunnit allt mer och mer.</p>
+
+<h3>Valde du att köra standard med VirtualBox och Debian eller hur gjorde du?</h3>
+<p>Jag valde att köra "standard" med VirtualBox och Debian. Var först inne på att använda en annan linux-distro men då det var debian som var standard kändes det bäst att köra med Debian</p>
+<p>Tänkte även först inte använda mig av VirtualBox utan installera Debian på en gammal laptop som bara ligger och skräpar men då jag vant mig vid min Mac-dator var det väldigt svårt att ens ta i den gamla plastiga Acer datorn som lät som ett flygplan.</p>
+
+<h3>Var det något som krånglade eller tog extra mycket tid?</h3>
+<p>Jag kan inte direkt påstå att det var något som krånglade eller tog mycket tid. Då jag har lite vana av Virtualbox vid det här laget flöt installationen på väldigt bra.</p>
+<p>En sak som jag hade svåra problem med första gången jag använde mig av VirtualBox var att hur jag än gjorde fick jag inte till att mitt Guest OS visades i fullscreen och täckte upp hela min skärm. Efter googling uppptäckte jag då att "guest additions cd" behövdes matas in och att några "drivisar" behövdes installeras för att fullscreen skulle fungera på ett korrekt sätt.
+Detta är väl dock kanske inte ett lika stort problem om man kör en mindre GUI-anpassad installation och linux eller kanske gör full headless och använder ssh bara. </p>
+
+<hr>
+
+<h2>Kmom02</h2>
+
+<h3>Allmänt</h3>
+<p>Då var förhoppningsvis det andra kursmomentet avklarat på ett korrekt sätt. Även om kursmomentet inte var speciellt omfattande gällde det ändå att hålla tungan rätt i munnen för att kunna genomföra momentet tycker jag.</p>
+<p>De mesta problem jag stötte på under momentets gång var egentligen felstavningar samt att jag missade någon liten detalj i guiderna eller i uppgiftera.</p>
+<p>Jag fick lite problem när jag skulle publicera mysite via dbwebb kommandot då csslint klagade på att min style.css var tom, men detta var något som snabbt kunde ändras genom att skriva lite i stylesheeten.</p>
+
+<h3>Hur känns konceptet med Apache name-based Virtual Hosts? Känner du igen det sedan tidigare?</h3>
+<p>Konceptet med Apache name-based Virtual Hosts var någonting helt nytt för mig och vid ett första ögonkast var det svårt att arbeta igenom guiden. Men som med mycket allt annat blev det bättre ju mer jag höll på med det.</p>
+<p>När me.linux.se skulle skapas läste jag inte supernoga utan jag skapde en Apache name-based Virtual Host för me.dbwebb.se istället (jag hade väl exemplet från guiden i huvudet när arbeta med uppgiften).
+När config-filen för den korrekta me.linux.se skulle skaps glömde jag att lägga till '.conf' på slutet och således gick det inte att köra kommandot 'sudo a2ensite linux.dbwebb.se' utan jag möttes av error-meddelanden.
+Det tog ett tag innan jag såg mitt misstag och det var inte förrän jag gick tillbaka till guiden och checkade av varje steg där som jag hittade felet. Efter felkorrigeringen fungerade det fint.</p>
+
+<h3>Det blir allt fler kommandon i terminalen, hur känns det med terminalen och dess kommandon?</h3>
+<p>Ja, det börjar bli en hel del kommandon att hålla reda på. Men det känns ändå bra och man inser verkligen att terminalen är ett verktyg med väldigt stor potential.</p>
+<p>Om det är några kommandon som jag märker att jag skriver ofta försöker jag tänka ut om det skulle gå att göra ett permanent alias för det kommandot i min .bashrc-fil i hem-mappen.
+Exempelvis har jag skapat alias för att installera program med apt-get och även ett alias på min lokala Mac-maskin för att ssh'a till min Debian virtualbox.
+Huruida det är en björntjänst att skapa alias eller ej kan jag inte svara på men jag tycker ändå det är väldigt smidigt att skriva 'installera PROGRAM' i terminalen istället för 'sudo apt-get install PROGRAM' och 'ssh-debian' för att ssh'a in i Debian virtualbox.</p>
+<p>Dock är det väl inte alla terminal kommandon som passar sig för att få ett smidigt alias. Om kommandot inte är lika "statiskt" som 'apt-get install' utan är av mer avancerad och situationsanpassad natur är det nog bäst att skriva kommandot på det <i>vanliga</i> sättet.</p>
+
+<h3>Gick det bra med ssh-nycklar och rsync över ssh?</h3>
+<p>Det gick bra med ssh-nycklarna då konceptet inte är helt nytt för mig. Har tidigare använt mig av ssh-nycklar här på dbwebb samt i privat bruk för några bitbucket-repon. Det är verkligen smidigt att slippa behöva skriva lösenord hela tiden...</p>
+<p>Rsync över ssh gick också bra även om jag till en början hade lite svårt för syntaxen. Efter att ha kollat lite i 'man rsync' klarnade det mer. </p>
+
+<h3>Hur kändes det att jobba med tmux?</h3>
+<p>tmux är något jag hade svårt med i början och ännu kan jag inte påstå att jag har bemästrat tmux väl. Jag behöver lägga mer tid på att prova tmux och läsa på mer om vad som kan göras med tmux.
+Men man verkar kunna göra väldigt avancerade saker med tmux men än så länge nöjer jag mig med de mindre avancerade användningsområdena. Panes var väldigt smidigt och något som fungerade likt iTerms split där man kan arbeta i flera rutor i samma terminalfönster.</p>
+<hr>
+
+<h2>Kmom03</h2>
+
+<h3>Allmänt</h3>
+<p>Då var det tredje momentet avklarat och förhoppningsvis genomfört på ett korrekt sätt.
+Detta tredje moment kändes inte lika omfattande som det förra och det tog inte lika lång tid att genomföra som det förra, även om jag skapde en del bash script samtidigt som jag läste igenom kurslitteraturen.
+</p>
+
+<h3>Tittade du på videoserien? Vad tyckte du om den?</h3>
+<p>Jag tittade på några avsnitt i början, men tittade inte på hela serien. Har videoserien bokmärkt dock och planerar att titta på mer avsnitt inom den närmsta tiden då det kan vara nyttigt.</p>
+
+<h3>Är detta din första bekantskap med skriptprogrammering och Bash?</h3>
+<p>Det är inte första gången jag skrivet ett scriptprogram med Bash. Dock har jag inte gjort speciellt avancerade saker. När jag provade olika linux-distros under sommaren insåg jag att det var en del program jag alltid installerade och funderade då på om det gick att lösa det på ett bättre sätt.
+Jag stötte då alltså på scriptprogram i bash och jag skapade ett installations-script som installerade de program jag behövde samt uppdaterade systemet. Det första jag då gjorde i vajre nyinstallerad distro var att hämta ned ett scriptprogram från min google drive och körde detta script. Således fick jag alltid de program, teman och ikoner jag ville ha på ett smidigt sätt.</p>
+
+<h3>Vilka möjligheter/utmaningar ser du med denna typen av skriptprogrammering?</h3>
+<p>En möjlighet är väl det jag redan provat på, nämligen script som installerar alla program och så vidare man vill ha. Även om den typen av script är relativt simpel är det ett väldigt effektivt sätt enligt mig att snabbt få ordning på ett nyinstallerat linux operativsystem.</p>
+<p>Annars kan jag tänka mig att man kan automatisera en hel del arbetsuppgifter via scriptprogrammering och jag läste på ett forum en gång i tiden om en person som uppskattade att hen hade automatiserat 30% av sina arbetsuppgifter via scriptprogrammering.</p>
+
+<h3>Hur många poäng fick du i uppgiften med irc-loggfilen?</h3>
+<p>Om jag räknat rätt fick jag ihop 16 poäng.</p>
+
+<h3>Gjorde du extrauppgiften?</h3>
+<p>Extrauppgiften var väl inte så mycket att "göra" mer än att läsa vilket jag gjorde. Bashscript med options och arguments är ju väldigt kraftfullt och väldigt vanligt egentligen. Det går ju till och med att skriva 'firefox --help' i terminalen i linuxmiljö för att se hjälp om firefox.</p>
+<p>Tidigare har jag använt mig av ett cli-program som kunde ladda ned undertexter till filmer och serier som även kunde ta emot argument och options. Bland annat kunde man skicka med '-l en' för programmet skulle leta efter undertexter på engelska.
+Filebot är ett annat exempel på ett avancerat program för att organisera exempelvis mediebibliotek på ett visst sätt med metadata och så vidare. Filebot har en "GUI-del" men det går även att göra underverk med det programmet via terminalen med tack vare options och argument. </p>
+
+<h3>Var det något som var extra svårt eller utmanande i uppgifterna?</h3>
+<p>Det var inge jättestora utmaningar i detta moment, utan jag tycker att uppgifterna låg på en bra nivå där man fick prova på kraftfulla linux-kommandon och scrptprogrammering på ett bra sätt.</p>
+<hr>
+
+<h2>Kmom04</h2>
+
+<h3>Allmänt</h3>
+<p>Då var det fjärde momentet genomfört och det märks att svårighetsgraden trappas upp allt eftersom momenten betas av.
+Den första uppgiften med Nodeschool var rolig och gick relativt snabbt och enkelt att genomföra. Det var bra eftersom att, i alla fall jag, behövde lägga en hel del tid på momentets andra uppgift.</p>
+<p>Guiderna som var knutna till momentet var bra, även om de var lite bristfälliga när det gällde att genomföra en del del-uppgifter i uppgiften om Node-servern. En hel del googlande behövdes för att ro uppgiften i land.</p>
+<p>Jag satt fast väldigt länge med uppgift 2.5 med '/status' och jag vet fortfarande inte om jag löste den på ett helt korrekt eller optimalt sätt då jag skickar in bägge kommandona med dubbla &amp; och sedan delade upp output med split. </p>
+
+<h3>Är detta din första bekantskap med javaScript på servern eller har du testat det tidigare?</h3>
+<p>Det är inte första gången jag provar på javascript på servern i och med Node. Har provat på Node vid ett tidigare tillfälle i en annan javascriptkurs här på dbwebb.</p>
+
+<h3>Vad tänkte du om ECMA6, dess funktioner och sättet att få tillgång till dem via babel-node?</h3>
+<p>Konceptet med node-babel kändes väldigt smidigt. Det var en del att ta in initialt om syntaxen, även om det inte var några speciellt överdriva saker det handla om. Blir nog till att läsa lästips länken om ECMA6 lite mera.</p>
+
+<h3>Vad tyckte du om Nodeschools variant på övningar och workshops?</h3>
+<p>Jag tycker att konceptet med Nodeschool och dess övningar samt workshops var väldigt bra.
+Korta men lärorika övningar där man blev väldigt peppad under resans gång.
+</p>
+<h3>Hur gick det att förstå konceptet kring klient och server?</h3>
+<p>Ja det är inte helt 100% klart med konceptet ännu men i grova drag handlar det väl om att en server levererar tjänster till en klient och klienten i sin tur kopplar upp sig till servern för att kunna nyttja tjänsterna.
+Det handlar om en "handskakning" och i detta fall med uppgiften skulle inte client.bash fungera om inte servern är igång.</p>
+<hr>
+
+<h2>Kmom05</h2>
+
+<h3>Allmänt</h3>
+<p>Då var förhoppningsvis det femte momentet avklarat på ett någotlunda korrekt sätt.
+Det var i början svårt att sätta mig in i uppgiften och en del tid gick åt att läsa runt i API dokumentationen
+samt att kolla runt i källkoden för maze-servern.</p>
+<p>Tyckte det var konstigt att min lokala server inte ropade ut incoming routes som servern gjorde i uppgiftsbeskringingen.
+Förstod först inte vad det var för fel men efter att ha kollat i commit historiken på github för kursen såg jag att en del commit
+gjorts som handlade om maze-servern som jag inte hade synkad ned till min lokala miljö. Ska försöka ha som vana att försöka hålla lokala repot med uppdaterad i framtiden.</p>
+
+<h3>Är du bekant med JSON API sedan tidigare?</h3>
+<p>Det är inte något helt nytt för mig men jag kan inte heller påstå att jag har väldigt mycket erfarenhet av det.</p>
+
+<h3>Hur kändes det att skriva störra bash-script? Var det något som var mer eller mindre utmandnde och tidskrävande?</h3>
+<p>Det kändes väl bra antar jag. Har fortfarande lite svårt med bash-syntaxen. Vet inte vad det är men på någo
+vis känns syntaxen aningen föråldrad. Inte heller känns syntaxen lika lättläslig och "effektiv" som exempelvis python syntax.</p>
+<p>Det som var mest utmanande för mig var försöka få något slags helhetsperspektiv om hur uppgiften skulle lösas.
+En hel del tid spenderades i terminalen med diverse curl anrop för att bilda en förståelse om vad servern ville ha får routes för att ta sig igenom mazen.</p>
+
+<h3>Kikade du på källkoden till maze-servern? Har du några reflektioner kring den?</h3>
+<p>Källkoden till maze-servern hade jag alltid nära till hands i texteditorn och var något jag tittade extra på i början av uppgiften.
+Därefter kikade jag väl inte alldeles för ofta i den.
+Det var mest om servern spottade ut errormeddelanden som jag dök ned i källkoden för att förstå felet. </p>
+
+<h3>Är du nöjd med din mazerunner? Gjorde du något speciellt som du vill lyfta fram?</h3>
+<p>Jo jag är väl relativt nöjd med min mazerunner. Tror min mazerunner fungerar i stort sätt som det förväntas, hoppas jag... Kan inte direkt säga jag gjorde något speciellt utöver det vanliga som jag skulle vilja lyfta fram.</p>
+<hr>
+
+<h2>Kmom06</h2>
+
+<h3>Allmänt</h3>
+<p>Då var det sista momentet avklarat innan det är dags att bita tag i projektarbetet.
+På det stora hela tycker jag att detta moment flöt på väldigt bra och jag gillar verkligen när
+det finns pedagogiska och genomgående övningar / förklaringar innan ett moment som det var i detta. För min del gör det att
+det inte känns lika motigt och svårt att börja med uppgiften. Så tummen upp för de bra övningarna!</p>
+<p>För min del var detta moment inte lika tungt och svårsmält som det förra vilket kändes bra då jag har en annan kurs vid sidan av som krockar med denna till och från.</p>
+
+<h3>Hur väl har du fått ordning på begreppen kring klient och server?</h3>
+<p>Jag tycker att jag börjar få kläm på det här med klient och server. Denna kursens moment går igenom dessa två på ett bra sätt tycker jag.</p>
+
+<h3>Hur känns det att utveckla i Node.js och den asynkrona programmeringsmodellen?</h3>
+<p>Till en början var det lite krångligt med den asynkrona programmeringsmodellen med allt eftersom momentet genomfördes tycker jag att jag allt mer och mer fick någon slags ordning på det hela.</p>
+
+<h3>Gick det bra med dina CLI-program i Node.js, några reflektioner kring dem?</h3>
+<p>Jag tycker att det var väldigt smidigt att man med hjälp av en shebang kunde "starta" babel-node på en gång direkt i terminalen när man skulle göra CLI-programmen.
+Det kändes sjukt smidigt att man kunde göra på det viset och något jag verkligen inte hade tänkt på tidigare. För övrigt känns CLI-program i allmänhet väldigt effektiva.
+Större tröskel i och med att inget GUI finns men när man väl kan ett CLI-programs alla options och arguments kan man använda CLI-programmet väldigt smidigt och effektivt.</p>
+
+<h3>Gjorde du något extra i uppgiften, eller förändrade grundkoden i Gomoku-spelet?</h3>
+<p>Jag gjorde inget extra i uppgifterna och jag förändrade inte heller grundkoden i Gomoku-spelet då jag inte riktigt kände att tiden fanns då andra kurser ropade om uppmärksamhet.</p>
+
+<h3>Känner du dig sugen, och redo, på att skriva en deltagare till Gomocup?</h3>
+<p>Även om det var intressant att läsa på om Gomocup i samband med övningen inför uppgiften känner jag mig inte speciellt sugen på det personligen</p>
+<hr>
+
+<h2>Kmom07</h2>
+
+<h3>Krav 1: Bash för att konvertera XLS till JSON</h3>
+
+<p>Jag började sätta mig in i detta moment med tanken av att det inte borde vara så svårt att konvertera ett .csv dokument till .json på ett dugligt sätt men jag insåg ganska snabbt hur fel jag hade. Ganska fort fastnade jag med att få json-dokumentet att ha samma stuktur som uppgiftsbeskrivningen. Krav 1 var dessutom det grundkrav jag vart klar med sist just för att jag fastnade ett bra tag på detta krav och insåg att jag inte kunde hänga upp mig på detta krav om jag skulle hinna klart med projektet i tid. Således kopierade jag in den json-struktur från uppgiftsbeskrivningen och satta detta krav på is undertiden som jag genomförde krav 2 och 3.   <br/>
+När de andra kraven var klara tog jag tag i detta krav igen. Jag såg att tidigare redovisningar länkade till en guide för hur en csv till json konvertering kunde gå till men jag ville först försöka lösa kravet helt själv. Tillslut lyckades jag <em>nästan</em> producera den json-struktur som efterfrågades. Mitt problem, som gjorde att jag tillsut använde mig av json-guiden som länkats tidigare, var att hur jag än gjorde innehöll varje representat för "Storlek" en newline som jag aldrig lyckades få bort. Detta gjorde att json-koden inte validerades genom diverse valideringsverktyg. Jag använde mig därför tillslut av guiden och modifierade denna för att passa kravet.      <br/>
+När det slutligen var dags att validera projektet var det bara i princip salar2json.bash som inte validerades och ganska mycket tid spenderades till att tolka valideringsfelen och rätta till dessa.</p>
+
+<p>Överlag var det detta krav som tog mest tid för mig och det känns inte som att jag var direkt förberedd på kravet, det kändes inte som att de tidigare kursmomenten riktigt gav mig kött på benen för att klara av detta krav inom en rimlig tidsram man kan tänka sig att ett första krav för ett projekt ska ta.</p>
+<p>Använder verktyget <a href="https://jsonformatter.curiousconcept.com">jsonformatter</a> för att validera min genererade jsonfil.</p>
+
+<h3>Krav 2: Server för att visa och söka bland salar</h3>
+
+<p>Servern bygger på servern från det föregående kursmomentet.
+När jag började med detta moment skrev jag all kod för servern skulle loopa igenom json-dokumentet och returnera det som skulle direkt i router.get för de olika url'sen. Jag insåg efter att tag att det vore smidigare, mer överskådligt och kontrollerbart att skapa separata funktioner som loopar igenom json-dokumentet och returnerar det som behövs för varje route och sedan anropa funktionerna i router.get och sedan skicka vidare resultatet som funtkionerna returnerar via sendJsonResponse.</p>
+
+<p>När jag väl hade kommit på denna uppdelning och logik i hur en av funktionerna skulle se ut och fungera var det inte så svårt att få till alla funktioner och anropa dessa i rätt router.get.</p>
+
+<p>Den svårate funktionen att få till var den som söker igenom hela json-dokumentet och med hjäl av delsträng returnerar sökningar på alla fält. Jag tolkade detta som att en sökning efter krona och Karlskrona ska visa samma sökresultat. Jag lyckades tillslut lösa detta med att använda mig av Object.keys</p>
+
+<p>/server/index.js innehåller en switch-case där -h, -v och --port går att skicka med som argument.
+Servern använder sig även av router som kravet specificerade att den skulle göra.</p>
+
+<p>Detta krav kändes som ett rimligt krav och inte alls lika svårt som krav 1 då det kändes som att jag var mer förberedd tack vare tidigare kursmoment att klara av detta krav. Det var helt klart en rimlig deluppgift för projektet i denna kurs enligt mig.</p>
+
+<h3>Krav 3: Klient i Node.js för att testköra mot servern</h3>
+
+<p>Här använder jag mig av grunden från förra kursmomentet för att skapa en klient. /client/bthclient.js innehåller en class som jag döpt till BthClient och denna klass returnerar mest de url's som behövs för att prata med servern.</p>
+
+<p>I /client/index.js delar jag upp server och port för att sedan slå ihop dessa på slutet igen. Filen innehåller även en switch-sats för -h, -v , --server och --port. Filen använder sig av readline och en swtich för att skriva kommandon när klienten är startad och beroende på vad man skriver i klienten så anropas olika funtkioner från klassen bthclient som finns i /client/bthclient.js. Vidare använder sig index.js av .then och .catch flr det olika casen i swtich-satsen.</p>
+
+<p>Klienten, som enligt min tolkning av projektbeskrivningen, förväntas returnera <em>alla</em> detaljer om ett rum när man söker efter något. Detta skiljer sig från krav 2 där /room/search/:search endast förväntas 'visa de slar som matchar söksträngen'. För /room/search/:search har jag valt att endast Salsnamn och SalsID returneras medan klientens sökning visar all info om ett rum (Storlek, Typ osv). Denna uppdelning löste jag genom att skapa en ny router.get i /server/server.js som endast klienten använder sig av. Denna route returnerar all info om ett rum när man söker efter något i klienten. Då det inte stod något specifikt om hur denna uppdelning skulle gå till valde jag att lösa dilemmat på detta vis.</p>
+
+<h3>Krav 5: Filtrera antalet träffar</h3>
+
+<p>Detta krav gick väldigt fort för mig att implementera då jag hade så mycket kod, funktioner och tankesätt att utgå ifrån för att klara av kravet. Det största problemet jag hade, som egentligen var ett relativt litet sådant var hur query-strängen ?max= skulle sparas ner till en variabel men efter lite googlande kunde jag använda mig av parseInt(req.query.max) för att spara ner filtreringsvärdet.
+Därefter gjorde jag valet att separera logiken för vad som skulle returneras när ett max-värde var satt som url-parameter och gjorde således separata funktioner som anropades om ett max-värde efterfrågades. Dessa nya funktioner efterliknar de redan skapta funktioner som fanns i /server/server.js med tillägget av en tempIteration variabel och en while-loop. While-loopen ser till att funktionen endast returnerar den mängd resultat som sätts med hjälp av max-värdet.</p>
+
+<p>Jag implementerade även möjligheten att filtrera antalet träffar i klienten. Jag hade först inte tänkt göra det då jag tolkade kravet som sådant att det inte skulle göras, men efter att ha tänkt lite på hur det skulle kunna implementeras insåg att att det inte skulle bli speciellt svårt att låta klienten även bestämma max-värden. Nya funktioner skapades i /client/bthclient.js med max-parametrar som returnerade this.httpGet som motsvarar det som efterfrågas. Därefter skapade jag if-satser i switch-satsen i client/index.js som anropar det nya funktionerna från /client/bthclient.js om rätt args[x] är satt. Meny-funktionen uppdaterades i klienten för att återspegla hur &#60;number&#62;	kan användas för att filtrera antalet träffar. Om 'house A-huset 3' skickas in i klienten visas endast 3 träffar för det huset osv.</p>
+
+<p>Detta krav kändes som ett rimligt optionellt krav som byggde vidare på de redan genomförda kraven på ett väldigt bra sätt.</p>
+
+<h3>Allmänt om projektet</h3>
+
+<p>Projektet på det stora hela har varit väldigt bra även om jag måste dela ut lite ris till det första kravet. Tycker inte att jag var förberedd på att klara av det kravet med de tidigare kursmomenten i ryggen. På tog för mycket googlande gick åt för att försöka lösa det första kravet. Tror jag googlade runt efter lösningar till krav 1 mer än de andra kraven gemensamt. Dubbelt upp kanske. Lite tråkigt att det var så. De andra kraven kändes dock väldigt rimliga med ta tidigare kursmomenten i ryggen och tillsammans tycker jag ändå att kraven tillsammans skapade ett rimligt projekt för denna kurs. Jag har lärt mig väldigt mycket under projektets gång och tycker, krav 1 till trots, att projektet låg på en lagom svårighetsgrad. Om krav 1 var det svåraste kravet så var nog krav 5 det enklaste för min del då krav 5 genomfördes på ett par timmar, till skillnad från krav 1 som tog flera frustrerande dagar att få till.</p>
+
+<p>Jag återupptäcker alltid hur bra console.log är för att få en inblick i hur saker fungerar, varför saker fungerar som de gör och varför saker <em>inte</em> fungerar som de gör. Console.log har varit min vapendragare under projektets gång och har verkligen använts flitigt för att få en inblick i vad som händer i alla loopar, alla while-satser, om en variabel är ett objekt eller något annat och om saker itereras på ett korrekt sätt.</p>
+
+<h3>Om kursen</h3>
+
+<p>Överlag tycker jag kursen har varit bra, framför allt du kursen är helt ny och man tänker sig att det är en del saker som måste rätas ut såhär i början.   <br/>
+Materialet för kursen har varit bra och jag uppskattar verkligen alla genomgående guider som tillhörde kursmomenten. De ger mer kött på benen innan jag tar mig an uppgifterna. Gillar även alla ssciinema videos som fanns för alla kursmoment även om det var en video som visade helt fel sak (sånt som kan hända i en första version av en kurs).</p>
+
+<p>Rättningarna av kursmomenten har gått något långsamt men jag kan dock inte påstå att det har satt käppar i hjulen för mig på något vis utan det har bara varit att fortsätta med kursmomenten och tänka att "det rättas när det rättas..". Jag tänker mig att rättningshastigheten kanske har något att göra med att kursen är helt ny och försöker ha överseende med detta.</p>
+
+<p>På en skala från 1-10 skulle jag nog ge kursen en 7:a</p>
+
+
+</article>
+
+</html>

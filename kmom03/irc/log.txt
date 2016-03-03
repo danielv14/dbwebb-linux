@@ -1,0 +1,23 @@
+Först tittade jag igenom irc-loggen med less ircLog.txt för att få någon slags överblick
+
+Bash-scriptet skapades med touch och gjordes körbar med chmod 755.
+
+Testade att göra första kravet enligt instruktioner men det klagades på illegal option -- - och efter att ha kollat man wc ändrade jag till wc -l istället och det fungerade.
+
+Efter att jag läst lite om grep i man insåg jag att grep -E skulle vara en bra lösning på krav 2
+
+Läste om hur wc kunde hitta antal ord och löste krav tre med wc -w
+
+Efter att ha läst i kurslitteraturen om tail och att jag hade det färst i huvudet var det enkelt att lösa krav 4 med en tail där antalet radet var satt till 4.
+
+Jag fick återigen kika lite i man grep för att lista ut hur jag skulle kunna få kommandot att endast plocka ut där loggen öppnades för första gången. Jag kom fram till att grep -m gjorde det jag var ute efter.
+
+Krav 6 kunde lösas på samma sätt som föregående, dock att det nu handlade om att det var den tredje raden som skulle hittas av något och inte den första.
+
+Krav 7 var lite knepig för min del men efter att ja kikat i manualen för grep återigen och verkligen läst kravet flera gånger insåg jag att det var antalet gånger en viss tid som skulle loggas och inte alla instancer där tiden matchade. grep -c löste detta åt mig.
+
+För krav 8 kunde återigen grep -m användas för att hitta det 10 första raderna efter ett visst datum. När jag dock tittar i min output-fil har endast en rad skrivits ned av någon anledning. Därför är jag osäker på om jag löst detta krav eller ej..
+
+Krav 9 kunde lösas enkelt med grep -E som tidigare krav.
+
+För att lösa krav 12 kom jag ihåg att tid stod före användare i ircloggen och således visste jag bara att jag behövde använda grep enligt detta mönster. Greps -E och -m som jag tidigare använt slogs ihop för att hitta den första raden där pansar sade något vid ett visst klockslag.

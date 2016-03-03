@@ -1,0 +1,30 @@
+Log för uppgift 2
+============================
+
+OBS: Då en viss struktur efterfrågades i mysite.mappen har kmom02 - uppgift 2's logfil och dump.png sparats utanför mysite-mappen. Hoppas detta är ok!
+OBS: Då jag sitter i en mac miljö på min lokala maskin skapas .DS_Store filer i tid och otid och en sådan fil slank även med när jag använde det andra rsync-kommandot och en sådan fil återfinnes även i mysite-foldern i min dbwebb-kurser mapp. Har i skrivande stund inte tagit bort denna fil då jag inte tror att det spelar någon roll huruvida den är kvar eller ej för uppgiftens skull.
+
+Apache virtual host för mysite.linux.se skapades på samma sätt som guiden och me.linux.se. Inga problem där.
+
+Rsync för att först flytta över mysite (ostrukturerad): rsync -rvz -e 'ssh -p 2222' mysite/* daniel@localhost:vhosts/mysite.linux.se/htdocs
+Rsync för att flytta mysite (strukturerad): rsync -rvza -e 'ssh -p 2222' --delete . daniel@localhost:vhosts/mysite.linux.se/htdocs där -a används för att kunna flytta över .htaccess filen.
+
+Kommandon använda för att strukturera mysite
+------------------------------------------------
+Jag kollade försti correct.txt för att se hur allting skulle struktureras.
+Det första jag såg var en htaccess fil som enkelt kunde skaps med touch efter att jag först gjort ls -A överallt för att se om filen redan fanns eller behövde skapas.
+Därefter såg jag att det skulle finnas en style-mapp med en style.css däri vilket behövde skapas med mkdir och touch återigen.
+Därefter korrigerade jag bildmappen genom att först skapa en ny mapp som heter img och sedan flytta dit alla bilder med 'mv'.
+Sedan flyttade jag ut och döpte om js-filen till korrekt namn och korrekt path med 'mv'.
+INDEX.HTML döptes om till index.html med 'mv'.
+Därefter skapades space.html och genie.html med touch.
+Då space.html och genie.html var nyskapta och tomma filer använde jag mig av 'cat marvin.html >> space.html' för att kopiera innehållet från marvin och använde sedan nano för att korrigera så att det vart rätt bilder i html-filerna.
+
+Kommandot tree
+-----------------------
+
+sudo apt-get install tree för att installer kommandot.
+Sedan använde jag mig av 'man tree' för att ta reda på de parametrar som behövdes vilket var 'tree -pa' där a listar osynliga filer (i detta fall .htaccess) och där p listar rättigheter likt ls -l.
+
+När det sedan var dags att publicera momentet klagade csslint på att min stylesheet var tom och lade därför till lite styling i min stylesheet.
+

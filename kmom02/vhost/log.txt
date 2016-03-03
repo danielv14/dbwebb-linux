@@ -1,0 +1,4 @@
+Apache Virtual Host me.linux.se skapades på samma sätt som i guiden för linux.dbwebb.se utan några större problem. Dock råkade jag först skapa en virtual host for me.dbwebb.se då jag hade guiden i huvudet. Visste inte riktigt om det var okej att använda me.dbwebb.se istället för me.linux.se så jag gjorde krav 1 en gång till och skapade en virtuel host för linux.me.se också
+
+Rsync-kommandot: rsync -av -e "ssh -p 2222" redovisa/* daniel@localhost:/vhosts/me.linux.se/htdocs
+lynx: lynx http://me.dbwebb.se:8080

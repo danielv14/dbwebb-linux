@@ -1,0 +1,290 @@
+{
+"salar": [
+{"Salsnr": "2-116","Salsnamn": "Ganges","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-128","Salsnamn": "Mississippi","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "1","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-129","Salsnamn": "Donau","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-208","Salsnamn": "Videored-rum 1","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-209","Salsnamn": "Videored-rum 2","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-210","Salsnamn": "Videored-rum 3","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-211","Salsnamn": "Ljudrum 5","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-212","Salsnamn": "Ljudrum 4","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-213","Salsnamn": "Ljudrum 3","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-214","Salsnamn": "Ljudrum 2","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-215","Salsnamn": "Ljudrum 1","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "2-218","Salsnamn": "Studio1","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-104","Salsnamn": "Ateljén","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-112","Salsnamn": "Referensrummet","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-120","Salsnamn": "Arkham","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-145","Salsnamn": "Modellverkstad","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-225","Salsnamn": "","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-226","Salsnamn": "","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "3-242","Salsnamn": "Projektrum 4","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "A303","Salsnamn": "Monsunen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "A-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "A311","Salsnamn": "Mistralen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "A-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "A312","Salsnamn": "Passaden","Lat": "","Long": "","Ort": "Karlskrona","Hus": "A-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "C216","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C235","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C236","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C237","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C244","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "C245","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "2","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C313A","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C334","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C335","Salsnamn": "LCDM","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "C336","Salsnamn": "LCDM","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "C341","Salsnamn": "LCDM","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "C342","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "C344","Salsnamn": "Seminarierum","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "C413A","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "4","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C444","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "4","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "C513A","Salsnamn": "Atelje","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "5","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "C541","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "C-huset","Våning": "5","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "G207","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "G210","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "2","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "G211","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "2","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "G307","Salsnamn": "DeSilling","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "G310A","Salsnamn": "Fysiklabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G311","Salsnamn": "Technical Artist","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "G312A","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "G313","Salsnamn": "VPA","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "G319-A","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "G319-B","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "G319-C","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "G332","Salsnamn": "Demonstrationslabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G340","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "3","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "G404","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "G410","Salsnamn": "CNAP 1","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G411","Salsnamn": "CNAP 2","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G412","Salsnamn": "Netseclab","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G414","Salsnamn": "Seclab/Realtidslab","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G427","Salsnamn": "Spellabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G511","Salsnamn": "ElektronikLabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "5","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "G513","Salsnamn": "CAD-sal","Lat": "","Long": "","Ort": "Karlskrona","Hus": "G-huset","Våning": "5","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "H206C","Salsnamn": "Dragsö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "2","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H206D","Salsnamn": "Ekholmen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "2","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H206E","Salsnamn": "Hästö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "2","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H206F","Salsnamn": "Lindholmen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "2","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H206H","Salsnamn": "Aspö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "H313","Salsnamn": "IT-Verkstad","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H315C","Salsnamn": "Connection","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H315D","Salsnamn": "Vintage","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H315G","Salsnamn": "Långö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "H320","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H321","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H322","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H326","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H327","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H328","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H329","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H330","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H338","Salsnamn": "Wämö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H339","Salsnamn": "Verkö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H340","Salsnamn": "Trossö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H341","Salsnamn": "Stakholmen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H342","Salsnamn": "Saltö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "3","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H428A","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H429","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Datorsal","Storlek": ""
+},
+{"Salsnr": "H430","Salsnamn": "Unixlabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "H445A","Salsnamn": "Grace Hopper","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "H470","Salsnamn": "3D-labb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "H474","Salsnamn": "Sketchlabb","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Labrationssal","Storlek": ""
+},
+{"Salsnr": "H475","Salsnamn": "Naked Lunch","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H478","Salsnamn": "Charles Babbage","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "H506A","Salsnamn": "Grupprum E","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H506B","Salsnamn": "Grupprum G","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H506C","Salsnamn": "Grupprum F","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H507A","Salsnamn": "Grupprum A","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H507B","Salsnamn": "Grupprum B","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H507C","Salsnamn": "Grupprum C","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H509","Salsnamn": "Metodövningsrum 3","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "H516A","Salsnamn": "Grupprum D","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Grupprum","Storlek": ""
+},
+{"Salsnr": "H516B","Salsnamn": "Metodövningsrum 1","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "H516C","Salsnamn": "Metodövningsrum 2","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "H528A","Salsnamn": "Hälsostudion","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "5","Typ": "Övrigt","Storlek": ""
+},
+{"Salsnr": "J1270","Salsnamn": "","Lat": "56.182804","Long": "15.590341","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1280","Salsnamn": "","Lat": "56.182747","Long": "15.590367","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1360","Salsnamn": "","Lat": "56.182885","Long": "15.590481","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1504","Salsnamn": "Multisalen","Lat": "56.183292","Long": "15.590056","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1610","Salsnamn": "","Lat": "56.183264","Long": "15.590426","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1620","Salsnamn": "","Lat": "56.183184","Long": "15.590468","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1630","Salsnamn": "","Lat": "56.183084","Long": "15.590506","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1640","Salsnamn": "","Lat": "56.182991 ","Long": "15.590552","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J1650","Salsnamn": "","Lat": "56.182914","Long": "15.590612","Ort": "Karlskrona","Hus": "J-huset","Våning": "1","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "J2135","Salsnamn": "John Von Neumann","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2229","Salsnamn": "Hajen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2309","Salsnamn": "Triangeln","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2310","Salsnamn": "Cirkeln","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2418","Salsnamn": "Valen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2505","Salsnamn": "Sälen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2506","Salsnamn": "Webbrum","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J2603","Salsnamn": "Uttern","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "2","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3135","Salsnamn": "Herbert Simon","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3202","Salsnamn": "John Atanasoff","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3204","Salsnamn": "Kurt Gödel","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3208","Salsnamn": "Claude Shannon","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3229","Salsnamn": "Edith Clarke","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3306","Salsnamn": "Blaise Pascal","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3309","Salsnamn": "Oktaedern","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3310","Salsnamn": "Dodekaedern","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3423","Salsnamn": "Aristoteles","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3506","Salsnamn": "Platon","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J3514","Salsnamn": "Kuben","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "3","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J4123","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J4209","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J4228","Salsnamn": "Utsikten","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J4330","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "J4333","Salsnamn": "","Lat": "","Long": "","Ort": "Karlskrona","Hus": "J-huset","Våning": "4","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Bataljen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Bryggan","Lat": "","Long": "","Ort": "Karlshamn","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Dialogen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Freden","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Hoppet","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Lugnet","Lat": "","Long": "","Ort": "Karlskrona","Hus": "","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Landstingssalen","Lat": "","Long": "","Ort": "Karlskrona","Hus": "Wämö Center","Våning": "","Typ": "Föreläsningssal","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Sturkö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "","Typ": "Konferensrum","Storlek": ""
+},
+{"Salsnr": "","Salsnamn": "Tjurkö","Lat": "","Long": "","Ort": "Karlskrona","Hus": "H-huset","Våning": "","Typ": "Konferensrum","Storlek": ""
+}
+]
+}
